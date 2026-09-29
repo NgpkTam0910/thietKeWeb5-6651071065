@@ -1,0 +1,23 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+}
+
+input {
+    padding: 6px;
+    width: 150px;
+}
+
+button {
+    padding: 7px 20px;
+    margin-top: 10px;
+}
+
+#ketQua {
+    font-size: 18px;
+    font-weight: bold;
+}

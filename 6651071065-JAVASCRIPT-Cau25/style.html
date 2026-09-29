@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Câu 25 - Tính tiền ăn uống</title>
+    <link rel="stylesheet" href="cau25.css">
+</head>
+
+<body>
+
+    <h2>GỌI MÓN</h2>
+
+    <label>Chọn món:</label>
+
+    <br><br>
+
+    <input type="checkbox" name="mon" value="30000" data-ten="Cà phê">
+    Cà phê - 30.000đ
+
+    <br>
+
+    <input type="checkbox" name="mon" value="25000" data-ten="Trà sữa">
+    Trà sữa - 25.000đ
+
+    <br>
+
+    <input type="checkbox" name="mon" value="40000" data-ten="Mì Ý">
+    Mì Ý - 40.000đ
+
+    <br>
+
+    <input type="checkbox" name="mon" value="35000" data-ten="Hamburger">
+    Hamburger - 35.000đ
+
+    <br><br>
+
+    <label>
+        <input type="checkbox" id="banDem">
+        Ăn vào ban đêm
+    </label>
+
+    <br><br>
+
+    <button onclick="tinhTien()">Tính tiền</button>
+
+    <div id="ketQua"></div>
+
+    <script src="cau25.js"></script>
+
+</body>
+</html>

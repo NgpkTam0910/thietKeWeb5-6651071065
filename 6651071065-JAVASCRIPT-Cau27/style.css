@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+}
+
+table {
+    width: 600px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: lightgray;
+}
+
+button {
+    padding: 5px 15px;
+}
